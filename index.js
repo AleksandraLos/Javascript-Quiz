@@ -39,6 +39,7 @@ resultBtn.addEventListener("click", () => {
     }
 
     let outcome = document.createElement("p");
+
     outcome.textContent = `Du har svarat rätt på ${result} frågor!`;
     div.appendChild(outcome);
     if (result == 7) {
@@ -48,4 +49,6 @@ resultBtn.addEventListener("click", () => {
     } else {
         outcome.style.color = "#ff0000";
     }
+
+
 });
