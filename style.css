@@ -1,7 +1,7 @@
 body {
     margin: 4rem;
     font-family: monospace;
-    font-size: x-large;
+    font-size: larger;
     text-align: center;
 }
 
@@ -40,10 +40,12 @@ body {
 
 h1 {
     font-size: 120px;
+    background-color: #ffc477;
 }
 
 h2 {
     color: #cc9f52;
+    font-size: 40px;
 }
 
 span {
