@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="se">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Musik Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <button id="darkMode">Dark mode</button>
+            <h1>Musik Quiz</h1>
+        </header>
+        <h2>Sant eller falskt?</h2>
+        <div class='trueFalse1'>
+            <span>1. Bandet som framför låten "Eye of the Tiger" heter Queen</span>
+            <form>
+                <input type="radio" name="choice" value="correct" id="choiceCorrect">
+                <label for="choice-sant">Sant</label>
+                <input type="radio" name="choice" value="false" id="choiceFalse">
+                <label for="choice-falskt">Falskt</label>
+            </form>
+            <span>2. Artisten Eric Saade födes i Skåne. </span>
+            <form>
+                <input type="radio" name="choice1" value="sant1" id="sant1">
+                <label for="sant1">Sant</label>
+                <input type="radio" name="choice1" value="falskt1" id="falskt1">
+                <label for="falskt1">Falskt</label>
+            </form>
+            <span> 3. Van Ted Gärdested Melodifestivallen med en låt som heter "Astronaut"?</span>
+            <form>
+                <input type="radio" name="choice2" value="sant2" id="sant2">
+                <label for="sant22">Sant</label>
+                <input type="radio" name="choice2" value="falskt2" id="falskt2">
+                <label for="falskt2">Falskt</label>
+            </form>
+        </div>
+        <h2>Välj ett korekt svar</h2>
+        <div class="trueFalse2">
+            <span> 4.Hur många gånger har Sverige varit värd för Eurovision song contest?</span>
+            <form>
+                <input type="radio" name="choice3" value="optionA" id="choiceA">
+                <label for="choiceA">6</label>
+                <input type="radio" name="choice3" value="optioB" id="choiceB">
+                <label for="choiceB">5</label>
+                <input type="radio" name="choice3" value="optionC" id="choiceC">
+                <label for="choiceC">4</label>
+            </form>
+            <span>5. Pantera var ett amerikanskt groove metal-band från Arlington i Texas. Vad betyder årdet "Pantera"?</span>
+            <form>
+                <input type="radio" name="choice4" value="optionD" id="choiceD">
+                <label for="choiceD">Ett släkte kattdjur</label>
+                <input type="radio" name="choice4" value="optionE" id="choiceE">
+                <label for="choiceE">En sportbil</label>
+                <input type="radio" name="choice4" value="optionF" id="choiceF">
+                <label for="choiceF">Ett sällskapspel</label>
+            </form>
+            <span>6. Vad står bandnamnet P.O.D för?</span>
+            <form>
+                <input type="radio" name="choice5" value="optionG" id="choiceG">
+                <label for="choiceG">Payable on Death </label>
+                <input type="radio" name="choice5" value="optionH" id="choiceH">
+                <label for="choiceH">Pizza on Dinner</label>
+                <input type="radio" name="choice5" value="optionI" id="choiceI">
+                <label for="choiceI">Popcorn o Desert </label>
+            </form>
+        </div>
+        <h2>Markera flera alternativ</h2>
+        <form>
+            <span>7. Vilka 5 medlemar bestod den brittiska tjejgrupen av?</span>
+            <input type="checkbox" id="correct0" name="spaceG">
+            <label for="correct0">Maria</label>
+
+            <input type="checkbox" id="correct1" name="spaceG">
+            <label for="correct1">Sara</label>
+
+            <input type="checkbox" id="correct2" name="spaceG">
+            <label for="correct2">Emma</label>
+
+            <input type="checkbox" id="correct3" name="spaceG">
+            <label for="correct3">Melanie</label>
+
+            <input type="checkbox" id="correct4" name="spaceG">
+            <label for="correct4">Anna</label>
+
+            <input type="checkbox" id="correct5" name="spaceG">
+            <label for="correct5">Carmen</label>
+
+            <input type="checkbox" id="correct6" name="spaceG">
+            <label for="correct6">Victoria</label>
+
+            <input type="checkbox" id="correct7" name="spaceG">
+            <label for="correct7">Geri</label>
+        </form>
+        <button id='result'>Få Resultat</button>
+        <div id="out"></div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
