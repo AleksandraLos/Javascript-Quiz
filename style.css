@@ -45,3 +45,13 @@ h1 {
 h2 {
     color: #cc9f52;
 }
+
+span {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+form {
+    margin: 20px;
+    font-size: 25px;
+}
