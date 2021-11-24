@@ -1,7 +1,7 @@
 let darkModeBtn = document.getElementById("darkMode");
 let div = document.getElementById("out");
 let resultBtn = document.getElementById("result");
-let checkbox = document.querySelectorAll(`input[name="spaceG"]`);
+
 
 
 darkModeBtn.addEventListener("click", () => {
@@ -31,12 +31,13 @@ resultBtn.addEventListener("click", () => {
     }
 
     if (
-        document.getElementById("correct2").checked &&
-        document.getElementById("correct3").checked &&
-        document.getElementById("correct6").checked &&
-        document.getElementById("correct7").checked) {
+        document.getElementById("correct2").checked === true &&
+        document.getElementById("correct3").checked === true &&
+        document.getElementById("correct6").checked === true &&
+        document.getElementById("correct7").checked === true &&
+        document.getElementById("correct4").checked === false) {
         result++;
-    }
+    } else {}
 
     let outcome = document.createElement("p");
 
